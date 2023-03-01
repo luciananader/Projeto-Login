@@ -3,29 +3,81 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body{
     background-color:rgba(0, 139, 139, 0.767);
-    
 }
 
-section#login{
-    
-    width: 150px;
-    height: 250px;
+section#login {
+    display: block;
+    width: 50vw;
+    height: 90vh;
     text-align: justify;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.425);
+}
 
+img{
+    width: 50vw;
+    height: 35vh;
 }
 
 div#imagem{
-    
-    width: 150px;
-    height: 100px;
+    display: block;
+    height: 35vh;
 }
 
 div#formulario{
-    width: 150px;
-    height: 150px;
+    display: block;
+    background-color: white;
+    width: 50vw;
+    height: 55vh;
+}
+
+div#formulario > h1 {
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+div#formulario > p{
+    padding: 5px;
+    font-size: 0.8em;
+}
+
+form > div{
+    background-color: rgb(45, 45, 136);
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 1px;
+    width: 230px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+div#entrar{
+    background-color: lightblue;
+    text-align: center;
+    color: white;
+    border: 1px solid rgb(45, 45, 136);
+}
+
+div#esqueci{
+    background-color: white;
+    border: 1px solid rgb(45, 45, 136);
+}
+
+input{
+    background-color: lightblue;
+    width: 197px;
+    height: 37px;
+    border-radius: 10px;
+    border: none;
+}
+
+span{
+    color: white;
 }

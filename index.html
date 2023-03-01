@@ -7,6 +7,8 @@
     <title>Login</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/mediaquery.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 <body>
     <main>
@@ -17,8 +19,28 @@
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente! Faça login para acessar sua conta e poder fazer as configurações em seu ambiente.</p>
+        
                 <form action="login.php" method="post">
-
+                    <div id="email">
+                        <p> <label for="iemail"><span class="material-icons">face</span></label>
+                            <input type="email" name="email" id="iemail" placeholder="Seu e-mail">
+                        </p>
+                    </div>
+                    <div id="senha">
+                        <p> <label for="isenha"><span class="material-icons">key</span></label>
+                            <input type="password" name="senha" id="isenha" placeholder="Sua senha">
+                        </p>
+                    </div>
+                    <div id="entrar">
+                        <p>
+                            <input type="submit" value="Entrar">
+                        </p>
+                    </div>
+                    <div id="esqueci">
+                        <p>
+                           
+                        </p>
+                    </div>
                 </form>
             </div>
         </section>
