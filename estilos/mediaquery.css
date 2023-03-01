@@ -1,2 +1,53 @@
 @charset "UTF-8";
 
+@media screen and (min-width: 992px){
+    
+    body{
+        background: -webkit-linear-gradient(left, lightblue, rgb(24, 206, 206), darkcyan);
+    }
+
+    section#login{
+        display: block;
+        margin-top: 90px;
+        width: 70vw;
+        height: 65vh;
+    }
+    img{
+        width: 35vw;
+        height: 65vh;
+    }
+    
+    div#imagem{
+        display: inline-block;
+        height: 65vh;
+    }
+    
+    div#formulario{
+        display: inline-block;
+        background-color: white;
+        width: 35vw;
+        height: 65vh;
+    }
+
+    div#formulario > h1 {
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+    div#formulario > p{
+        font-size: 0.9em;
+        margin-bottom: 20px;
+    }
+
+    form > div{
+        width: 400px;
+        height: 50px;
+    }
+    
+    input{
+        width: 350px;
+        height: 50px;
+        margin-left: 50px;
+        margin-top: -60px;
+    }
+    
+}
