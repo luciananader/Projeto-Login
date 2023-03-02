@@ -1,32 +1,35 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 768px) and (max-width: 992px){
     
     body{
-        background: -webkit-linear-gradient(left, lightblue, rgb(24, 206, 206), darkcyan);
+        background: -webkit-linear-gradient(left, rgb(24, 206, 206), darkcyan);
     }
 
     section#login{
         display: block;
-        margin-top: 90px;
+        margin-top: 20px;
         width: 70vw;
-        height: 65vh;
+        height: 60vh;
     }
     img{
         width: 35vw;
-        height: 65vh;
+        height: 60vh;
     }
     
     div#imagem{
+        float: left;
         display: inline-block;
-        height: 65vh;
+        width: 35vw;
+        height: 60vh;
     }
     
     div#formulario{
         display: inline-block;
+        float: right;
         background-color: white;
         width: 35vw;
-        height: 65vh;
+        height:60vh;
     }
 
     div#formulario > h1 {
@@ -39,15 +42,59 @@
     }
 
     form > div{
-        width: 400px;
-        height: 50px;
+        width: 250px;
+        height: 40px;
     }
     
     input{
-        width: 350px;
+        width: 200px;
         height: 50px;
         margin-left: 50px;
         margin-top: -60px;
     }
     
+}
+@media screen and (min-width: 992px){
+
+    body{
+        background: -webkit-linear-gradient(left, rgb(24, 206, 206), darkcyan);
+    }
+
+    section#login{
+        display: block;
+        width: 70vw;
+        height: 60vh;
+    }
+    
+    div#imagem{
+        float: left;
+        display: inline-block;
+        width: 35vw;
+        height: 60vh;
+    }
+    
+    div#formulario{
+        display: inline-block;
+        float: right;
+        background-color: white;
+        width: 35vw;
+        height:60vh;
+    }
+
+    div#formulario>p {
+        font-size: 1em;
+    }
+
+    form > div{
+        width: 350px;
+        height: 50px;
+    }
+
+    input{
+        width: 300px;
+        margin-left:50px ;
+        margin-bottom: 50px ;
+        font-size: large;
+    }
+
 }
