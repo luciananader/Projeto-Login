@@ -42,30 +42,26 @@
     }
 
     form > div{
+        display: block;
         width: 250px;
         height: 40px;
     }
     
     input[type=email]{
-        display: block;
-        width: 210px;
-        height: 40px;
-        margin-left: 40px;
-        margin-top: -35px;
+        margin-left: 45px;
+        margin-top: -1px;
+       
     }
 
     input[type=password]{
-        display: block;
-        width: 210px;
-        height: 40px;
-        margin-left: 40px;
-        margin-top: -35px;
+        margin-left: 45px;
+        margin-top: -1px;
         
     }
 
     span{
-        margin-top: 8px;
-        margin-left: 8px;
+        margin-top: 5px;
+        margin-left: 5px;
     }
 }
 @media screen and (min-width: 992px){
@@ -97,6 +93,8 @@
 
     div#formulario>p {
         font-size: 1em;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     form > div{
@@ -104,21 +102,24 @@
         height: 50px;
     }
 
+    input{
+        display: block;
+        transform: translateY(-5px);
+    }
+
     input[type=email]{
         display: block;
-        width: 300px;
-        height: 50px;
+        height: 48px;
         font-size: large;
-        margin-left: 47px;
+        margin-left: 45px;
         margin-top: -38px;
     }
 
     input[type=password]{
         display: block;
-        width: 300px;
-        height: 50px;
+        height: 48px;
         font-size: large;
-        margin-left: 47px;
+        margin-left: 45px;
         margin-top: -38px;
     }
 
